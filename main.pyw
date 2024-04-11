@@ -86,7 +86,7 @@ def update():
 	if held_keys["escape"]:
 		pass
 
-# drawing chessboard from chessboard list
+# drawing level from level list
 for row_index, row in enumerate(level1, start=1):
 	for col_index, tile in enumerate(row, start=1):
 		if tile == 1:
