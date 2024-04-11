@@ -1,3 +1,4 @@
+
 # importing modules and sub-modules
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
@@ -104,7 +105,7 @@ sky = Sky(texture="sky_sunset")
 player = FirstPersonController(position=(2, -2, 2))
 
 # ground
-ground = Entity(parent=scene, model="cube", color=color.rgb(255, 255, 255, 50), position=(10.5, -2, 10.5), scale=(19.5, 0.1, 19.5), collider="mesh")
+ground = Entity(parent=scene, model="cube", color=color.rgb(255, 255, 255, 150), position=(10.5, -2, 10.5), scale=(19.5, 0.1, 19.5), collider="mesh")
 
 # running the app
 app.run()
